@@ -10,6 +10,7 @@ basedir = os.path.abspath(os.path.dirname(__file__)) #gets parent directory
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir,'db.sqlite') #The database URI that should be used for the connection. Examples:
 #sqlite:////tmp/test.db
 #mysql://username:password@server/db
+#sqllite is light weigth server end db.
 
 app.config['SQLALCHEMY_TRACK_ALCHEMY'] = False
 
